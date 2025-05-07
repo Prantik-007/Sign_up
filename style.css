@@ -7,12 +7,20 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    background-color: #1a1a1a; /* Dark background for spooky feel */
+    color: #f4f4f4; /* Light text for contrast */
 }
+
 .outer-box{
     width: 100vw;
     height: 100vh;
-    background: lightblue;
+    background: #1a1a1a; /* Dark theme for outer container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
 .inner-box{
     width: 400px;
     margin: 0 auto;
@@ -20,67 +28,95 @@ body{
     top: 40%;
     transform: translateY(-50%);
     padding: 20px 40px;
-    background-color: blanchedalmond;
+    background-color: #ff9900; /* Halloween Orange */
     backdrop-filter: blur(8px);
     border-radius: 8px;
     box-shadow: 4px 4px 20px black;
     z-index: 2;
 }
+
 .signup-header h1{
     font-size: 2.5rem;
-    color: #212121;
+    color: #ff3300; /* Spooky Red */
+    font-family: 'Ga Maamli', sans-serif;
 }
+
 .signup-header p{
     font-size: 0.8rem;
-    color: rgb(52, 50, 50);
+    color: #cccccc; /* Light gray for description */
 }
+
 .signup-body{
     margin: 20px 0;
 }
+
 .signup-body p{
     margin: 10px 0;
 }
+
 .signup-body p label{
     display: block;
     font-weight: bold;
+    color: #ffcc00; /* Yellow for contrast */
 }
+
 .signup-body p input{
     width: 100%;
     padding: 10px;
-    border: 2px solid brown;
+    border: 2px solid #ff6600; /* Dark orange for inputs */
     border-radius: 4px;
     font-size: 1rem;
     margin-top: 4px;
+    background-color: #333; /* Dark background for input */
+    color: #fff; /* Light text in input fields */
 }
+
 .signup-body p input[type="submit"]{
-    background-color: aquamarine;
+    background-color: #66cc66; /* Ghostly green for the button */
     border: none;
     color: black;
     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 .signup-body p input[type="submit"]:hover{
-    background-color: rgb(18, 169, 239);
+    background-color: #99cc00; /* Lighter green on hover */
 }
+
 .signup-footer p{
-    color: rgb(104, 102, 102);
+    color: #cccccc;
     text-align: center;
 }
+
 .signup-footer p a{
-    color:  rgb(1, 72, 104);
+    color:  #ff9900; /* Link color in Halloween orange */
 }
+
 .circle{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    background:linear-gradient( to top right,aquamarine,gold);
+    background: linear-gradient(to top right, #ff6600, #6600cc); /* Halloween gradient from orange to purple */
     position: absolute;
+    opacity: 0.6; /* Slightly transparent for a ghostly effect */
 }
+
 .c1{
     top: 100px;
     left: 40px;
+    animation: float 3s infinite ease-in-out; /* Add floating effect */
 }
+
 .c2{
     bottom: 200px;
     right: 50px;
-    
+    animation: float 3s infinite ease-in-out; /* Floating effect for the second circle */
+}
+
+/* Floating animation */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
 }
