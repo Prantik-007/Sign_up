@@ -1,6 +1,6 @@
 # Sign_up
 website link:    https://prantik-007.github.io/Sign_up/
-Absolutely! Here’s a polished final version you can directly copy-paste into your `README.md` file for your **CI/CD Static Website Project**:
+
 
 ---
 
@@ -14,7 +14,7 @@ This project demonstrates a simple **CI/CD pipeline** for a static website using
 
 * GitHub Actions for CI/CD
 * Auto-deployment to GitHub Pages on every push
-* Basic HTML & CSS structure (you can expand it)
+* Basic HTML & CSS structure 
 * Easy to customize
 
 ---
@@ -67,19 +67,5 @@ open index.html
 
 ---
 
-## 🖼️ Screenshot (Optional)
 
-*(Insert a screenshot or GIF here showing the live website or GitHub Actions tab)*
-
----
-
-## ✅ Status
-
-✅ Completed
-📅 Duration: 2-3 Days
-📈 Ideal for DevOps beginners
-
----
-
-Let me know if you’d like this saved as a file or if you want a Markdown-formatted version to upload directly.
 
