@@ -3,25 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Grid Portfolio</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-text">
-            <h2 class="heading">Portfolio</h2>
-            <p class="sub-heading">Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.</p>
+    
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Welcome to My Portfolio Site!</h1>
+
+                <h1>Sign-Up</h1>
+                <p>It just takes 30 seconds.......</p>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                <p>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Prantik Chakraborty" required>
+                </p>
+                <p>
+                    <label for="Email">your Email</label>
+                    <input type="email" id="Email" placeholder="prantikchakraborty007@gmail.com" required>
+                </p>
+                <p>
+                    <label for="password">your new password</label>
+                    <input type="password" id="password" placeholder="atleast 8 characters" required>
+                </p>
+                <p>   
+                    <input type="submit" id="submit" value="create account">
+                </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an account? 
+                    <a href="#">Login</a></p>
+            </footer>
         </div>
-        <div class="gallery">
-            <div class="box row-2" id="box1" style="background-image: url(https://images.unsplash.com/photo-1570097703229-b195d6dd291f?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Eiffel Tower">Eiffel Tower</div>
-            <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1524338198850-8a2ff63aaceb?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Waterfalls">Waterfalls</div>
-            <div class="box row-2" style="background-image: url(https://plus.unsplash.com/premium_photo-1661956738380-930a35ffffee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Architecture">Architecture</div>
-            <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Island">Island</div>
-            <div class="box row-2" style="background-image: url(https://images.unsplash.com/photo-1678055702841-5b784c417390?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Gotham">Gotham</div>
-            <div class="box" style="background-image: url(https://plus.unsplash.com/premium_photo-1661878091370-4ccb8763756a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Cherry Blossom">Cherry Blossom</div>
-            <div class="box" style="background-image: url(https://plus.unsplash.com/premium_photo-1669750792014-33cfa325fadf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);" alt="Ocean">Ocean</div>
-        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
     </div>
 </body>
 </html>
