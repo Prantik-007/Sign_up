@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Lato:ital,wght@0,400;1,700&display=swap');
 
-*{
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+/* Body */
+body {
     font-family: 'Lato', sans-serif;
 }
-.outer-box{
+
+/* Outer Box */
+.outer-box {
     width: 100vw;
     height: 100vh;
-    background: lightblue;
+    background-color: lightblue;
 }
-.inner-box{
+
+/* Inner Box */
+.inner-box {
     width: 400px;
     margin: 0 auto;
     position: relative;
@@ -26,25 +33,33 @@ body{
     box-shadow: 4px 4px 20px black;
     z-index: 2;
 }
-.signup-header h1{
+
+/* Signup Header */
+.signup-header h1 {
     font-size: 2.5rem;
     color: #212121;
 }
-.signup-header p{
+
+.signup-header p {
     font-size: 0.8rem;
     color: rgb(52, 50, 50);
 }
-.signup-body{
+
+/* Signup Body */
+.signup-body {
     margin: 20px 0;
 }
-.signup-body p{
+
+.signup-body p {
     margin: 10px 0;
 }
-.signup-body p label{
+
+.signup-body p label {
     display: block;
     font-weight: bold;
 }
-.signup-body p input{
+
+.signup-body p input {
     width: 100%;
     padding: 10px;
     border: 2px solid brown;
@@ -52,35 +67,44 @@ body{
     font-size: 1rem;
     margin-top: 4px;
 }
-.signup-body p input[type="submit"]{
+
+/* Submit Button */
+.signup-body p input[type="submit"] {
     background-color: aquamarine;
     border: none;
     color: black;
     cursor: pointer;
 }
-.signup-body p input[type="submit"]:hover{
+
+.signup-body p input[type="submit"]:hover {
     background-color: rgb(18, 169, 239);
 }
-.signup-footer p{
+
+/* Signup Footer */
+.signup-footer p {
     color: rgb(104, 102, 102);
     text-align: center;
 }
-.signup-footer p a{
-    color:  rgb(1, 72, 104);
+
+.signup-footer p a {
+    color: rgb(1, 72, 104);
 }
-.circle{
+
+/* Circle Elements */
+.circle {
     width: 200px;
     height: 200px;
-    border-radius: 100px;
-    background:linear-gradient( to top right,aquamarine,gold);
+    border-radius: 50%;
+    background: linear-gradient(to top right, aquamarine, gold);
     position: absolute;
 }
-.c1{
+
+.c1 {
     top: 100px;
     left: 40px;
 }
-.c2{
+
+.c2 {
     bottom: 200px;
     right: 50px;
-    
 }
